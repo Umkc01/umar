@@ -1,0 +1,23 @@
+// Base class Person with name and age
+open class Person(val name: String, val age: Int) {
+    fun printPersonDetails() {
+        println("Name: $name")
+        println("Age: $age")
+    }
+}
+
+// Subclass Student that inherits from Person and adds grade
+class Student(name: String, age: Int, val grade: String) : Person(name, age) {
+    fun printStudentDetails() {
+        printPersonDetails() // Call the method from the base class
+        println("Grade: $grade")
+    }
+}
+
+fun main() {
+    // Create an object of Student
+    val student = Student("Umar", 21, "A")
+
+    // Print all details
+    student.printStudentDetails()
+}
