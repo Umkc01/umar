@@ -1,0 +1,11 @@
+// Function to return the sum of two integers
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    // Call the function with different values and display the result
+    println("Sum of 5 and 3: ${sum(5, 3)}")
+    println("Sum of 10 and 20: ${sum(10, 20)}")
+    println("Sum of 100 and 50: ${sum(100, 50)}")
+}
