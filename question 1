@@ -1,0 +1,5 @@
+// This is the main function in Kotlin where the program execution starts
+fun main() {
+    // This line prints the greeting message to the console
+    println("Hello,  umar muhammad!")
+}
