@@ -1,0 +1,7 @@
+fun main() {
+    // Print numbers from 1 to 10 in one line
+    println("Numbers from 1 to 10: ${(1..10).joinToString(" ")}")
+
+    // Print even numbers from 1 to 20 in one line
+    println("Even numbers from 1 to 20: ${(1..20).filter { it % 2 == 0 }.joinToString(" ")}")
+}
