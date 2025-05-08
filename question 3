@@ -1,0 +1,17 @@
+import java.util.Scanner  // Import Scanner to get input from user
+
+fun main() {
+    // Create a Scanner object
+    val reader = Scanner(System.`in`)
+
+    // Prompt user to enter a number
+    print("Enter a number: ")
+    val number = reader.nextInt()  // Read the number as an integer
+
+    // Check if the number is even or odd using modulus operator (%)
+    if (number % 2 == 0) {
+        println("$number is an even number.")
+    } else {
+        println("$number is an odd number.")
+    }
+}
