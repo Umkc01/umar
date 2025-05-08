@@ -1,0 +1,18 @@
+// Define the Car class with properties and a function
+class Car(val brand: String, val model: String, val year: Int) {
+
+    // Function to display the car details
+    fun displayDetails() {
+        println("Car Details: $brand $model, Year: $year")
+    }
+}
+
+fun main() {
+    // Create two objects of the Car class
+    val car1 = Car("Toyota", "Corolla", 2020)
+    val car2 = Car("Ford", "Mustang", 2021)
+
+    // Display the details of both cars
+    car1.displayDetails()
+    car2.displayDetails()
+}
