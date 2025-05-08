@@ -1,0 +1,19 @@
+fun main() {
+    // Create a map with student names as keys and scores as values
+    val studentScores = mapOf(
+        "Alice" to 85,
+        "Bob" to 65,
+        "Charlie" to 90,
+        "David" to 70,
+        "Eve" to 75
+    )
+
+    // Print students who scored above 70
+    println("Students who scored above 70:")
+    for ((name, score) in studentScores) {
+        if (score > 70) {
+            println("$name scored $score")
+        }
+    }
+}
+
