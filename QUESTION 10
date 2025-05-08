@@ -1,0 +1,10 @@
+fun main() {
+    // Define a lambda expression that multiplies two integers
+    val multiply: (Int, Int) -> Int = { a, b -> a * b }
+
+    // Call the lambda with sample values
+    val result = multiply(6, 7)
+
+    // Print the result
+    println("The product is: $result")
+}
