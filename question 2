@@ -1,0 +1,17 @@
+ import java.util.Scanner  // Import Scanner to read input from the console
+
+fun main() {
+    // Create a Scanner object
+    val reader = Scanner(System.`in`)
+
+    // Ask for the user's name
+    print("Enter your name: ")
+    val name = reader.nextLine()  // Read the name as a string
+
+    // Ask for the user's age
+    print("Enter your age: ")
+    val age = reader.nextInt()  // Read the age as an integer
+
+    // Print the formatted greeting message
+    println("Hello $name, you are $age years old!")
+}
